@@ -39,8 +39,19 @@
      */
     
     // *********************   
-    // Your code goes here
+    numberOfEntreesOrdered = numberOfGuests;
+   numberOfDessertsOrdered=numberOfGuests;
+   numberOfAppetizersOrdered= numberOfGuests/2;
+    numberOfWineBottlesOrdered = numberOfGuests/4;
+    
+    dinnerPrice = (numberOfEntreesOrdered*entreePrice) + (numberOfDessertsOrdered*dessertPrice) + (numberOfAppetizersOrdered* appetizerPrice) + (numberOfWineBottlesOrdered*winePrice);
+    
+    tip = dinnerPrice*tipRate;
+    
+    
     // *********************
+    
+    
     
     
     // Print the dinner price
