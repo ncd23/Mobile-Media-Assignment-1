@@ -65,6 +65,29 @@
             </objects>
             <point key="canvasLocation" x="455" y="64"/>
         </scene>
+        <scene sceneID="iHM-o1-UHi">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="894-Nl-AFa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="uwN-2p-GJ1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IKe-Er-h8K">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tips" lineBreakMode="tailTruncation" minimumFontSize="10" id="bv0-vO-Zjf">
+                                <rect key="frame" x="139" y="50" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="aeo-Yq-OMG"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="924" y="680"/>
+        </scene>
         <scene sceneID="24">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="23" sceneMemberID="firstResponder"/>
@@ -84,6 +107,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="uwN-2p-GJ1" kind="push" id="Tef-BI-093"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="10 E 52nd St
 New York, NY" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" minimumFontSize="10" id="g8h-d1-tpI">
