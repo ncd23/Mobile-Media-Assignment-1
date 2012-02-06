@@ -69,13 +69,14 @@
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="894-Nl-AFa" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="uwN-2p-GJ1" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="IKe-Er-h8K">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="IKe-Er-h8K">
+                        <rect key="frame" x="0.0" y="64" width="320" height="372"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tips" lineBreakMode="tailTruncation" minimumFontSize="10" id="bv0-vO-Zjf">
                                 <rect key="frame" x="139" y="50" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -83,7 +84,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="aeo-Yq-OMG"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="924" y="680"/>
@@ -111,8 +114,7 @@
                                     <segue destination="uwN-2p-GJ1" kind="push" id="Tef-BI-093"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="10 E 52nd St
-New York, NY" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" minimumFontSize="10" id="g8h-d1-tpI">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="10 E 52nd St New York, NY" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" minimumFontSize="10" id="g8h-d1-tpI">
                                 <rect key="frame" x="73" y="159" width="175" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
@@ -143,17 +145,6 @@ New York, NY" textAlignment="center" lineBreakMode="tailTruncation" numberOfLine
     <resources>
         <image name="ChmbrImgs_101018_0020.jpg" width="1024" height="683"/>
     </resources>
-    <classes>
-        <class className="DetailViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="detailDescriptionLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="MasterViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MasterViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

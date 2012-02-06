@@ -49,6 +49,7 @@
     dinnerPrice = (numberOfEntreesOrdered*entreePrice) + (numberOfDessertsOrdered*dessertPrice) + (numberOfAppetizersOrdered* appetizerPrice) + (numberOfWineBottlesOrdered*winePrice);
     
     tip = dinnerPrice*tipRate;
+    taxes = dinnerPrice*taxRate;
     
     
     // *********************
